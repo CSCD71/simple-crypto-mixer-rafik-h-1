@@ -1,9 +1,10 @@
 import { poseidon2 } from 'poseidon-lite';
 import { encodeAbiParameters } from 'viem';
+import { base } from '$app/paths';
 
 // Paths to the compiled circuit artifacts in static/zk/
-const WASM_PATH = '/zk/ProofOfMembership.wasm';
-const ZKEY_PATH = '/zk/ProofOfMembership.zkey';
+const WASM_PATH = `${base}/zk/ProofOfMembership.wasm`;
+const ZKEY_PATH = `${base}/zk/ProofOfMembership.zkey`;
 
 /**
  * Generates a cryptographically random BigInt suitable for use as
