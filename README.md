@@ -100,9 +100,6 @@ The mixer contract depends on three external libraries that must be deployed fir
 
 3. If redeploying, update the contract address and deployment block in `frontend/src/lib/contracts/mixer.ts`.
 
-### Note on deployment:
-I would have liked to use the Foundry `Deploy.s.sol` script but couldn't get it to work with library linking in Forge 1.5.1. The `deploy.sh` script handles this by writing library addresses to `foundry.toml` before compiling dependent contracts.
-
 ---
 
 ## Running the Frontend Locally
