@@ -6,6 +6,8 @@ The full breakdown of AI generated files and material is found at [AI-DISCLOSURE
 
 The frontend handles note generation, ZK proof creation, and transaction submission. The smart contract enforces all security invariants: fixed deposit amounts, nullifier-based double-spend prevention, Groth16 proof verification, and anti-front-running nonce binding. I have tried to be as clear as possible about what is and is not AI generated and all of my prompts have had this constraint in mind.
 
+I am so short on time, frontend fully ai, deployment i needed help linking the contracts, script links them easily without requiring additional input. I remember the prompts i used but basically same as last assignment, follow rules, only wriote frontend etc. caviats im still using default rpc which gets rate limited quickly but is better than the alchemy one which restriucts to 10 block size. the rest of this is fully ai generated and looks ok but also im doing this with very little time so I apologize for any inconsistencies.
+
 # Simple Crypto Mixer
 
 A privacy-preserving crypto mixer dApp deployed on the Ethereum Sepolia testnet. Users deposit 0.1 ETH into a shared pool and later withdraw to a different address using a zero-knowledge proof, breaking the public link between deposit and withdrawal.
