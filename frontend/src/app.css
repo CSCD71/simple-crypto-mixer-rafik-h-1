@@ -1,0 +1,12 @@
+@import 'tailwindcss';
+
+@theme {
+	--color-mixer-bg: #0f172a;
+	--color-mixer-card: #1e293b;
+	--color-mixer-accent: #6366f1;
+	--color-mixer-success: #22c55e;
+	--color-mixer-warning: #f59e0b;
+	--color-mixer-danger: #ef4444;
+	--color-mixer-text: #f8fafc;
+	--color-mixer-muted: #94a3b8;
+}

@@ -1,0 +1,9 @@
+node_modules
+/out
+/cache
+/zk-data
+*.sym
+/.claude
+/example
+.env
+notes.txt
